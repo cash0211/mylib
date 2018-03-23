@@ -14,13 +14,13 @@
 /* Begin PBXFileReference section */
 		07C1EA8747C47374A47554EB /* Pods-mylib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mylib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mylib_Tests/Pods-mylib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2738E5DD1EC7FDE8F6548168 /* Pods-mylib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mylib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mylib_Tests/Pods-mylib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3CBE989C2F739BAFB8BA9D5B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5C90926245F9AD9E8C733667 /* mylib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = mylib.podspec; path = ../mylib.podspec; sourceTree = "<group>"; };
+		3CBE989C2F739BAFB8BA9D5B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5C90926245F9AD9E8C733667 /* mylib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = mylib.podspec; path = ../mylib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACE51AFB9204008FA782 /* mylib_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mylib_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7D53B08B209111A6697729CB /* Pods_mylib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mylib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EB6742A566416E56EF4CC9C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7EB6742A566416E56EF4CC9C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,10 +131,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
